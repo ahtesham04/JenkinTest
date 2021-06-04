@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-26T04:20:49Z" name="Default suite" finished-at="2021-05-26T04:21:20Z" duration-ms="30213">
+    <groups>
+      <group name="Regression">
+        <method signature="TestCase1.test1()[pri:0, instance:TestNG.TestCase1@4b7dc788]" name="test1" class="TestNG.TestCase1"/>
+        <method signature="TestCase1.test2()[pri:0, instance:TestNG.TestCase1@4b7dc788]" name="test2" class="TestNG.TestCase1"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-05-26T04:20:49Z" name="Default test" finished-at="2021-05-26T04:21:20Z" duration-ms="30213">
+      <class name="Test.FBDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.FBDemo@6304101a]" started-at="2021-05-26T04:20:49Z" name="setup" finished-at="2021-05-26T04:20:58Z" duration-ms="8476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Test.FBDemo@6304101a]" started-at="2021-05-26T04:20:58Z" name="login" finished-at="2021-05-26T04:20:58Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Test.FBDemo -->
+      <class name="TestNG.TestCase1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:20:49Z" name="beforeTest" finished-at="2021-05-26T04:20:49Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="beforeMethod" finished-at="2021-05-26T04:21:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="test1" finished-at="2021-05-26T04:21:20Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="beforeMethod" finished-at="2021-05-26T04:21:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="afterMethod" finished-at="2021-05-26T04:21:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test2()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="test2" finished-at="2021-05-26T04:21:20Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="afterMethod" finished-at="2021-05-26T04:21:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.TestCase1@4b7dc788]" started-at="2021-05-26T04:21:20Z" name="afterTest" finished-at="2021-05-26T04:21:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.TestCase1 -->
+      <class name="TestNG.TestCase2">
+        <test-method signature="test3()[pri:0, instance:TestNG.TestCase2@5170bcf4]" started-at="2021-05-26T04:21:20Z" name="test3" finished-at="2021-05-26T04:21:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG.TestCase2 -->
+      <class name="Test.SimpalilearnDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.SimpalilearnDemo@2812b107]" started-at="2021-05-26T04:20:58Z" name="setup" finished-at="2021-05-26T04:21:19Z" duration-ms="20859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Test.SimpalilearnDemo@2812b107]" started-at="2021-05-26T04:21:19Z" name="login" finished-at="2021-05-26T04:21:20Z" duration-ms="343" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using name=user_pwd
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-N4US75F9', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=user_pwd
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-N4US75F9', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Test.SimpalilearnDemo.login(SimpalilearnDemo.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Test.SimpalilearnDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
